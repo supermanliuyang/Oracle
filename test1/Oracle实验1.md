@@ -1,3 +1,4 @@
+# 实验一：分析SQL执行计划，执行SQL语句的优化指导
 * 查询语句1
 ```sql
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
@@ -16,3 +17,4 @@ WHERE d.department_id = e.department_id
 GROUP BY department_name
 HAVING d.department_name in ('IT'，'Sales');
 ```
+## 查询结果
